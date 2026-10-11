@@ -1,0 +1,9 @@
+export { Home } from "./Home";
+export { About } from "./About";
+export { Resume } from "./Resume";
+export { Contact } from "./Contact";
+export { CaseStudy } from "./CaseStudy";
+export { IndianRailwaysCaseStudy } from "./IndianRailwaysCaseStudy";
+export { AulasCaseStudy } from "./AulasCaseStudy";
+export { AssamSocietyCaseStudy } from "./AssamSocietyCaseStudy";
+export { IndustrialPlatformCaseStudy } from "./IndustrialPlatformCaseStudy";
