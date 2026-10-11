@@ -2,7 +2,7 @@ import { motion } from "motion/react";
 import { Download, ExternalLink } from "lucide-react";
 import { portfolioData } from "../data";
 
-import resumePdf from "../../imports/Tejas_Anikhindi_Resume_2026-1.pdf";
+import resumePdf from "../../imports/Tejas_Anikhindi_UX_Resume.pdf";
 
 const fadeIn = {
   initial: { opacity: 0, y: 20 },
@@ -42,7 +42,7 @@ export function Resume() {
         <motion.div variants={fadeIn} className="flex gap-4">
           <a
             href={resumePdf}
-            download="Tejas_Anikhindi_Resume.pdf"
+            download="Tejas_Anikhindi_UX_Resume.pdf"
             className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-5 py-2.5 rounded-full font-medium text-sm hover:bg-primary/90 transition-colors"
           >
             <Download size={16} />
